@@ -1,9 +1,21 @@
 {
   "name": "lynxio",
   "version": "1.0.0",
-  "description": "realtime communication uses UDP built on top of SocketIO and PeerJS",
-  "main": "index.js",
+  "description": "Low-latency UDP-style connections on top of Socket.IO and WebRTC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./server": "./dist/server/index.js",
+    "./client": "./dist/client/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/azerazerty/LynxIO/issues"
   },
-  "homepage": "https://github.com/azerazerty/LynxIO#readme"
+  "homepage": "https://github.com/azerazerty/LynxIO#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
 }
