@@ -1,0 +1,29 @@
+{
+  "name": "lynxio",
+  "version": "1.0.0",
+  "description": "realtime communication uses UDP built on top of SocketIO and PeerJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azerazerty/LynxIO.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "socket-io",
+    "tcp",
+    "udp",
+    "real-time",
+    "webRTC",
+    "websockets"
+  ],
+  "author": "azerazerty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azerazerty/LynxIO/issues"
+  },
+  "homepage": "https://github.com/azerazerty/LynxIO#readme"
+}
